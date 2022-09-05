@@ -1,12 +1,48 @@
-.homeContainer{
-  margin-top: 50px;
-  display: flex;
-  flex-direction: column;
+.app {
+  margin: 5px;
   align-items: center;
-  gap: 30px;
+  padding-top: 10px;
 }
 
-.homeTitle{
-  width: 1024px;
+.search {
+  padding: 10px;
   font-size: 20px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.list {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.listItem {
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #444;
+  font-weight: 100;
+}
+
+th {
+  width: 2000px;
+  
+}
+
+td {
+  font-size: larger;
+  
+}
+
+table tr {
+  border: 2px solid rgb(9, 124, 118);
+}
+
+table th {
+  border: 2px solid rgb(9, 124, 118);
+}
+table td {
+  border: 2px solid rgb(9, 124, 118);
+  font-style: bold;
+  font-weight: 20px;
 }

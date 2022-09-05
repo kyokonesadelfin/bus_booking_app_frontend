@@ -1,18 +1,18 @@
 .featured{
   width: 100%;
-  max-width: 1024px;
+  max-width: 1300px;
   display: flex;
   justify-content: space-between;
-  gap: 20px;
+  gap: 15px;
   z-index: 1;
 }
 
 .featuredItem{
   position: relative;
-  color: white;
-  border-radius: 10px;
+  color: black;
+  border-radius: 3px;
   overflow: hidden;
-  height: 250px;
+  height: 200px;
   flex:1
 }
 
@@ -24,6 +24,6 @@
 
 .featuredTitles{
   position: absolute;
-  bottom: 20px;
+  bottom: 15px;
   left: 20px;
 }

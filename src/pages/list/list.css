@@ -6,19 +6,23 @@
 
 .listWrapper {
   width: 100%;
-  max-width: 1024px;
+  max-width: 1000px;
   display: flex;
   gap: 20px;
 }
 
 .listSearch {
-  flex: 1;
-  background-color: #febb02;
+  background-color: lightcyan;
   padding: 10px;
   border-radius: 10px;
   position: sticky;
   top: 10px;
+  left:10px;
   height: max-content;
+  width: 100%;
+  max-width: 300px;
+  border: solid black 2px;
+ 
 }
 
 .lsTitle{
@@ -40,7 +44,7 @@
 
 .lsItem>input{
   height: 30px;
-  border: none;
+  border: 2px solid black;;
   padding: 5px;
 }
 .lsItem>span{
@@ -66,10 +70,11 @@
 
 .lsOptionInput{
   width: 50px;
+  border: 2px solid black;
 }
 
 .listSearch>button{
-  padding: 10px;
+  padding: 20px;
   background-color: #0071c2;
   color: white;
   border: none;
